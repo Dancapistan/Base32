@@ -1,0 +1,3 @@
+This is a Ruby implementation of a [Crockford-style Base 32 encoder](http://crockford.com/wrmg/base32.html).
+
+It converts numbers from a base-10 radix to a base-32 radix, using certain limitations specified in Crockford's article. Notably, the letters I and L are avoided and treated as a numeral 1, and the letter O is avoided and treated as a numeral 0. Additionally, the letter U is omitted to avoid accidental obscenities.
